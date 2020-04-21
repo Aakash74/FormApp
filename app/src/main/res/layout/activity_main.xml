@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/black"
+        android:inputType="textCapCharacters" />
+    <TextView
+        android:id="@+id/textView_first_no"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:text="User Name"
+        android:textColor="@android:color/black"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="500dp"
+        android:layout_height="800dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="450dp"
+        android:text=""
+        android:textColor="@android:color/black"
+
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:id="@+id/rgButton"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_gravity=""
+        android:text="Male"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+
+        />
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_gravity=""
+        android:text="Female"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp"
+
+        />
+    </RadioGroup>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#B8B894" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="110dp"
+        android:text="Gender"
+        android:textColor="@android:color/black"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="190dp"
+        android:text="Hobbies"
+        android:textSize="20dp" />
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="190dp"
+        android:text="Playing"
+        android:textColor="@android:color/black"
+
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="190dp"
+        android:text="Listening songs"
+        android:textColor="@android:color/black"
+
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox1" />
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="240dp"
+        android:text="Driving"
+        android:textColor="@android:color/black"
+
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="300dp"
+        android:text="Submit"
+        android:textColor="@android:color/black"
+
+
+        />
+
+
+
+
+
+</RelativeLayout>
+
